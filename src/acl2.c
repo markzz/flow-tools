@@ -46,7 +46,7 @@
 
 #include "acl2.h"
 
-struct acl_list acl_list;
+static struct acl_list acl_list;
 
 #define E acl_list.acl_ip_ext[index]
 
